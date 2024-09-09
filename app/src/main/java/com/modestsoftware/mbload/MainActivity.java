@@ -161,7 +161,7 @@ public class MainActivity extends AppCompatActivity {
                             AlertDialog alertDialog = new AlertDialog.Builder(MainActivity.this)
                                     .setIcon(R.drawable.mb)
                                     .setTitle(" Now Offer Selling is OFF.")
-                                    .setMessage("বর্তমানে অফার সেল বন্ধ আছে। কিছুক্ষণ পরে আবার চেষ্টা করুন।।\n\nআমাদের অফার সেল সার্ভিস সকাল ১০টা থেকে রাত ১০টা পর্যন্ত দেওয়া হয়।")
+                                    .setMessage("বর্তমানে অফার সেল বন্ধ আছে।\n\nআমাদের অফার সেল সার্ভিস সকাল ১০টা থেকে রাত ১০টা পর্যন্ত দেওয়া হয়।")
                                     .setPositiveButton("Thanks", new DialogInterface.OnClickListener() {
                                         @Override
                                         public void onClick(DialogInterface dialogInterface, int i) {
