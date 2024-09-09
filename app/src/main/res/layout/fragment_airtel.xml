@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg"
+    tools:context=".Airtel">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@color/bg"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        >
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="@dimen/_6sdp"
+            android:backgroundTint="@color/color1"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            >
+            <TextView
+                android:id="@+id/bundel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ব্যান্ডেল"
+                android:textSize="@dimen/_16ssp"
+                android:paddingLeft="@dimen/_13sdp"
+                android:paddingRight="@dimen/_13sdp"
+                android:paddingBottom="@dimen/_5sdp"
+                android:paddingTop="@dimen/_5sdp"
+                android:textStyle="bold"
+                android:fontFamily="@font/kalpurush"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="@dimen/_6sdp"
+            android:backgroundTint="@color/color"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+
+            >
+            <TextView
+                android:id="@+id/minute"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="মিনিট"
+                android:textSize="@dimen/_16ssp"
+                android:paddingLeft="@dimen/_13sdp"
+                android:paddingRight="@dimen/_13sdp"
+                android:paddingBottom="@dimen/_5sdp"
+                android:paddingTop="@dimen/_5sdp"
+                android:textStyle="bold"
+                android:fontFamily="@font/kalpurush"
+                android:textColor="@color/color1"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="@dimen/_6sdp"
+            android:backgroundTint="@color/color1"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+
+            >
+            <TextView
+                android:id="@+id/mb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="এমবি"
+                android:textSize="@dimen/_16ssp"
+                android:paddingLeft="@dimen/_10sdp"
+                android:paddingRight="@dimen/_10sdp"
+                android:paddingBottom="@dimen/_5sdp"
+                android:paddingTop="@dimen/_5sdp"
+                android:textStyle="bold"
+                android:fontFamily="@font/kalpurush"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="@dimen/_6sdp"
+            android:backgroundTint="@color/color"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+
+            >
+            <TextView
+                android:id="@+id/family"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ফ্যামিলি প্যাক"
+                android:textSize="@dimen/_16ssp"
+                android:paddingLeft="@dimen/_10sdp"
+                android:paddingRight="@dimen/_10sdp"
+                android:paddingBottom="@dimen/_5sdp"
+                android:paddingTop="@dimen/_5sdp"
+                android:textStyle="bold"
+                android:textColor="@color/color1"
+                android:fontFamily="@font/kalpurush"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                />
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/note22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Note: এয়ারটেলে ফ্যামিলি প্যাক গত ৬০ দিনের ভিতরে নিয়ে থাকলে ২য় বার একি নাম্বারে নিতে পারবেন না।"
+        android:fontFamily="@font/kalpurush"
+        android:textSize="@dimen/_14ssp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:gravity="start"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_7sdp"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:textColor="#1B1A1A"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:visibility="gone"
+        />
+
+    <ListView
+        android:id="@+id/ar_bundel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:visibility="visible" />
+    <ListView
+        android:id="@+id/ar_minute"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:visibility="gone"
+        />
+    <ListView
+        android:id="@+id/ar_mb"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:visibility="gone"
+        />
+    <ListView
+        android:id="@+id/ar_family"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:visibility="gone"
+        />
+
+</LinearLayout>

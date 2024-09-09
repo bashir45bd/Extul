@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "134251949559",
+    "project_id": "mb-load-5b8bd",
+    "storage_bucket": "mb-load-5b8bd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:134251949559:android:b17b6f7d10580ba57652f2",
+        "android_client_info": {
+          "package_name": "com.modestsoftware.mbload"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBq5FTjOd9XY6hQ3ZzCiAq-znB8qH_PADI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

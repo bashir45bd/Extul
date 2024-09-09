@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/diologbox"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <RelativeLayout
+        android:id="@+id/ss"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_15sdp"
+        >
+
+        <ImageView
+            android:id="@+id/up_note"
+            android:layout_width="@dimen/_28sdp"
+            android:layout_height="@dimen/_28sdp"
+            android:layout_alignParentEnd="true"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:layout_marginRight="@dimen/_15sdp"
+            android:tint="@color/black"
+            android:src="@drawable/check_24" />
+        <ImageView
+            android:id="@+id/close_up"
+            android:layout_width="@dimen/_28sdp"
+            android:layout_height="@dimen/_28sdp"
+            android:layout_alignParentStart="true"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:tint="@color/black"
+            android:src="@drawable/baseline_close_24" />
+
+        <ImageView
+            android:id="@+id/delete"
+            android:layout_width="@dimen/_28sdp"
+            android:layout_height="@dimen/_28sdp"
+            android:layout_alignParentEnd="true"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:layout_marginRight="@dimen/_47sdp"
+            android:padding="@dimen/_2sdp"
+            android:tint="@color/black"
+            android:src="@drawable/delete_24" />
+
+        <ImageView
+            android:id="@+id/copy"
+            android:layout_width="@dimen/_28sdp"
+            android:layout_height="@dimen/_28sdp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="@dimen/_78sdp"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:padding="@dimen/_2sdp"
+            android:tint="@color/black"
+            android:src="@drawable/copy_24" />
+
+
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/ss"
+        android:visibility="visible"
+        >
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/ThemeOverlay.Material3.AutoCompleteTextView"
+            android:hint="Title"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            app:boxStrokeWidth="@dimen/_2sdp"
+            app:boxBackgroundColor="@color/white"
+
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/title_up"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:maxLength="25"
+                android:textColor="#151515"
+                android:textSize="@dimen/_13ssp" />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/ThemeOverlay.Material3.AutoCompleteTextView"
+            android:hint="Note"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            app:boxStrokeWidth="@dimen/_2sdp"
+            app:boxBackgroundColor="@color/white"
+
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/note_up"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#151515"
+                android:inputType="textMultiLine"
+                android:textSize="@dimen/_13ssp"
+                />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

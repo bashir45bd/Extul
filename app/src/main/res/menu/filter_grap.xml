@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <item
+        android:id="@+id/today"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Today"
+        />
+    <item
+        android:id="@+id/lastday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Last day"
+
+        />
+    <item
+        android:id="@+id/lastweek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Last week"
+
+        />
+
+    <item
+        android:id="@+id/lastmonth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Last month"
+
+        />
+    <item
+        android:id="@+id/lastyear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Last year"
+
+        />
+
+
+
+
+</menu>
