@@ -1,7 +1,5 @@
 Extul
 
-Here's a full description of your Android app:
-
 ---
 
 **All-in-One Productivity and Management App**  
