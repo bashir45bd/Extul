@@ -489,8 +489,8 @@ public class Offer extends AppCompatActivity {
 
         public class view_report extends RecyclerView.ViewHolder{
 
-              TextView user_amount,user_reason,user_time;
-              LinearLayout user_item;
+            TextView user_amount,user_reason,user_time;
+            LinearLayout user_item;
             public view_report(@NonNull View itemView) {
                 super(itemView);
                 user_amount=itemView.findViewById(R.id.user_amount);

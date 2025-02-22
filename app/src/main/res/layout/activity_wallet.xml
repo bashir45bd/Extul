@@ -275,14 +275,15 @@
                                 android:orientation="vertical"
                                 android:elevation="3dp"
                                 >
+
                                 <com.google.android.material.tabs.TabLayout
                                     android:id="@+id/filter_tab"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
-                                    app:tabTextColor="@color/color1"
                                     android:background="@color/color"
-                                    app:tabTextAppearance="@style/TabLayoutStyle2"
                                     android:paddingBottom="@dimen/_3sdp"
+                                    app:tabTextAppearance="@style/TabLayoutStyle2"
+                                    app:tabTextColor="@color/color1"
 
                                     >
 
@@ -290,16 +291,14 @@
                                         android:id="@+id/all"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
-                                        android:text="All"
                                         android:backgroundTint="@color/color1"
-                                        />
+                                        android:text="All" />
 
                                     <com.google.android.material.tabs.TabItem
                                         android:id="@+id/day"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
-                                        android:text="Day"
-                                        />
+                                        android:text="Day" />
 
                                     <com.google.android.material.tabs.TabItem
                                         android:id="@+id/week"

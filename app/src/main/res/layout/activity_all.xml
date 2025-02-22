@@ -460,33 +460,13 @@
 
         </LinearLayout>
 
-        <com.airbnb.lottie.LottieAnimationView
-            android:layout_below="@+id/sbar"
-            android:id="@+id/sanimationView"
-            android:layout_width="@dimen/_200sdp"
-            android:layout_height="@dimen/_200sdp"
-            android:layout_alignParentStart="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginStart="69dp"
-            app:lottie_autoPlay="true"
-            android:scaleType="centerCrop"
-            app:lottie_loop="true"
-            app:lottie_url="https://lottie.host/e091c4b0-74ab-4401-bd40-6c46264cf59c/SlMRrnYhMi.json" />
-
-        <ScrollView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_below="@id/sanimationView"
-            android:background="@color/bg"
-            >
 
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:orientation="vertical"
                 android:gravity="center"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginTop="@dimen/_50sdp"
+                android:layout_below="@+id/sbar"
                 >
 
                 <androidx.cardview.widget.CardView
@@ -604,7 +584,6 @@
             </LinearLayout>
 
 
-        </ScrollView>
 
 
     </RelativeLayout>

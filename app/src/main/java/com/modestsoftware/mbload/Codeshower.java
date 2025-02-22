@@ -219,8 +219,6 @@ public class Codeshower extends AppCompatActivity {
            String name= MainActivity.sharedPreferences.getString("tali_name","");
 
 
-
-
             call.setOnClickListener(v -> {
 
                 Intent intent = new Intent(Intent.ACTION_DIAL);
@@ -820,7 +818,6 @@ public class Codeshower extends AppCompatActivity {
 
                     Bundle bun=getIntent().getExtras();
                     int user_id =bun.getInt("user_id");
-
                     Intent nextActivity = new Intent(Codeshower.this, Offer.class);
                     Bundle bundle = new Bundle();
                     bundle.putInt("user_id",user_id);
@@ -839,6 +836,8 @@ public class Codeshower extends AppCompatActivity {
         }
         popupMenu.show();
     }
+
+
     public void user_up (Context context,String id,String name,String address) {
 
         BottomSheetDialog dialog = new BottomSheetDialog(this);
